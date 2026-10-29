@@ -1,0 +1,37 @@
+# Blueprint: a light theme for coding in sunlight, in the colors of
+# blueprint.page's design system. White panels, near-black text, one blueprint
+# blue. Every terminal color reads at 4.5:1 or better on white.
+mode = "light"
+
+accent = "#104bff"
+selection = "#d6e1ff"
+muted = "#5f5f68"
+
+background = "#ffffff"
+dark_background = "#f7f7f8"
+darker_background = "#eeeff1"
+lighter_background = "#ececef"
+
+foreground = "#18181b"
+dark_foreground = "#a1a1aa"
+light_foreground = "#3f3f46"
+bright_foreground = "#000000"
+
+red = "#c2372b"
+yellow = "#8a5d00"
+orange = "#c2410c"
+green = "#16794a"
+cyan = "#0e7490"
+blue = "#104bff"
+magenta = "#6a4cf5"
+brown = "#7c4a1e"
+
+bright_red = "#a3291f"
+bright_yellow = "#704b00"
+bright_green = "#11643c"
+bright_cyan = "#0b5e75"
+bright_blue = "#0a3ee0"
+bright_magenta = "#5232d8"
+
+hyprland_active_border = "#104bff"
+hyprland_inactive_border = "rgba(e4e4e7ff)"
