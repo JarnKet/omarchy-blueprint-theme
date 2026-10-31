@@ -48,17 +48,23 @@ which is meant to recede, is lighter.
   Omarchy uses it from a linked checkout; an installed copy falls back to the
   generated one.
 - `icons.theme`: `Yaru-blue`.
-- `backgrounds/`: four wallpapers drawn in blueprint ink by
-  `tools/make-wallpaper.py` (`make-wallpaper.py all`, or name the ones to
-  redo):
-  1. **thinkpad**: a technical drawing of a ThinkPad T14s Gen 6. Plan view
-     open flat, front and left elevations, dimensions (313.6 × 219.4 × 16.9 mm,
-     the published footprint), numbered callouts, a parts list, a 4:1 detail
-     of the TrackPoint and a title block.
-  2. **grid**: engineering paper in a zoned border with a datum, a north arrow,
-     a scale bar and a title block.
-  3. **isometric**: a little city of blocks on an isometric grid.
-  4. **contours**: contour lines of an imaginary terrain, one in violet.
+- `backgrounds/`: nine wallpapers drawn by `tools/make-wallpaper.py`
+  (`make-wallpaper.py all`, or name the ones to redo). They are one drawing
+  set: each is a sheet with the same frame and title block (SHEET n / 9), a
+  technical drawing of something invented, in blue ink only. One feature per
+  sheet gets a heavier line and a pale wash of the same blue.
+  1. **gears**: three spur gears with true involute teeth, and a section
+     through the big one
+  2. **hull**: the lines plan of a boat (profile, half-breadth plan, body
+     plan) with its table of offsets
+  3. **bridge**: a suspension bridge in elevation, and a section of its deck
+  4. **linkage**: Chebyshev's lambda, a four-bar linkage whose coupler point
+     runs nearly straight for part of each turn
+  5. **plan**: the ground floor plan of a small pavilion
+  6. **wing**: a tapered wing in plan, and its NACA 2412 ribs lofted
+  7. **lettering**: the construction of a geometric capital B
+  8. **rocket**: a two-stage launch vehicle, and two sections through it
+  9. **orbits**: a transfer orbit between two circular orbits
 
   Cycle them with `omarchy theme bg next`.
 - `preview.png`: the theme switcher thumbnail, from `tools/make-preview.sh`
@@ -77,15 +83,14 @@ ln -s ~/Projects/blueprint-theme ~/.config/omarchy/themes/blueprint
 ## How this was made
 
 The idea and the choices are mine: a bright theme I can read outdoors,
-blueprint.page's colors, and the technical-drawing wallpapers. The files were
+blueprint.page's colors, and the drawing-set wallpapers. The files were
 written by Claude (Anthropic's AI) in Claude Code from what I asked for. I
 tried the theme on my own machine and take responsibility for what's here.
 
 ## Credits
 
 The palette follows the design tokens of [blueprint.page](https://blueprint.page).
-Not affiliated with Blueprint. ThinkPad and TrackPoint are trademarks of
-Lenovo; the drawing is an illustration, not an official one.
+Not affiliated with Blueprint.
 
 ## License
 
